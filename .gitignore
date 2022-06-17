@@ -1,0 +1,13 @@
+db.sqlite3
+givito/__pycache__/
+givito/account/__pycache__/
+givito/product/__pycache__/
+givito/transaction/__pycache__/
+givito/feature/__pycache__/
+givito/chat/__pycache__/
+givito/account/migrations/__pycache__/
+givito/product/migrations/__pycache__/
+givito/transaction/migrations/__pycache__/
+givito/feature/migrations/__pycache__/
+givito/chat/migrations/__pycache__/
+.env
