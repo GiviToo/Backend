@@ -41,10 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'givito.account',
-    'givito.product',
-    'givito.transaction',
-    'givito.chat',
-    'givito.feature',
+    'givito.service'
 ]
 
 MIDDLEWARE = [
