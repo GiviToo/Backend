@@ -11,3 +11,4 @@ givito/transaction/migrations/__pycache__/
 givito/feature/migrations/__pycache__/
 givito/chat/migrations/__pycache__/
 .env
+venv/
