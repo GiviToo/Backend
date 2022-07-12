@@ -1,9 +1,9 @@
 { pkgs }: {
   deps = [
-    pkgs.python310Full
+    pkgs.python39Full
   ];
   env = {
-    PYTHONBIN = "${pkgs.python310Full}/bin/python3.10";
+    PYTHONBIN = "${pkgs.python39Full}/bin/python3.9";
     LANG = "en_US.UTF-8";
   };
 }
