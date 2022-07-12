@@ -132,6 +132,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'givito', 'resources', 'static')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -144,11 +146,18 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'givito', 'resources', 'media')
 
 # CORS CONFIGURATION
 
-# CORS_ALLOW_CREDENTIALS = True
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [
+    'https://api.givitoo.isnan.me',
+    'https://givitoo.isnan.me',
+    'https://givitoo-me-frontend.vercel.app',
+    'http://localhost:3000'
+]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://api.givitoo.isnan.me'
+    'https://api.givitoo.isnan.me',
+    'https://givitoo.isnan.me',
+    'https://givitoo-me-frontend.vercel.app'
 ]
 
 
