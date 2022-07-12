@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-ph%7zzlmm8)b#)&&@$+nb5*s8ix1q6g@gihoki9%m@rk%l)8p&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'api.givitoo.isnan.me'
+    'api.givitoo.isnan.me',
+    'localhost'
 ]
 
 
