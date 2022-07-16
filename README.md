@@ -33,3 +33,4 @@ python3 runserver localhost:8000
 - [API Endpoint](https://api.givitoo.isnan.me "API Endpoint")
 - [Admin Dashboard](https://api.givitoo.isnan.me/admin "Admin Dashboard")
 - [Documentation](https://docs.google.com/document/d/1LkiHrknyDJxfp2XZ6Ieqon531dBKE3I_V_pPXRJVuu0/edit?usp=sharing "Documentation")
+- [Entity Relational Design](https://dbdiagram.io/d/62beefd569be0b672c80e0be "Entity Relational Design")
